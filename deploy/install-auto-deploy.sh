@@ -28,6 +28,7 @@ cat > /etc/systemd/system/plaid-auto-deploy.timer <<'EOF'
 Description=Check GitHub for production updates every minute
 
 [Timer]
+OnActiveSec=1min
 OnBootSec=1min
 OnUnitActiveSec=1min
 AccuracySec=10s
