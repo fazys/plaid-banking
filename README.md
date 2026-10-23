@@ -21,7 +21,7 @@ cp .env.example .env
 Put your secrets in `.env`, including login:
 
 ```env
-ADMIN_USERNAME=admin
+ADMIN_USERNAME=choose-an-admin-name
 ADMIN_PASSWORD=choose-a-strong-password
 SESSION_SECRET=long-random-string
 ```
@@ -99,7 +99,7 @@ PLAID_ENV=production
 PLAID_REDIRECT_URI=https://banks.example.com/
 TZ=America/New_York
 DAILY_SYNC_ENABLED=true
-ADMIN_USERNAME=admin
+ADMIN_USERNAME=choose-an-admin-name
 ADMIN_PASSWORD=choose-a-strong-password
 SESSION_SECRET=long-random-string
 ```
