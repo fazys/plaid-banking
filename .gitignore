@@ -6,12 +6,8 @@ google-service-account.json
 *-credentials.json
 *.pem
 .DS_Store
-data/items.json
-data/pdf-exports.json
-data/pdfs/
-data/settings.json
-data/activity.json
-data/users.json
-data/secrets.json
+# Everything the app saves (banks, users, keys, settings, PDFs, backups)
+data/*
+!data/.gitkeep
 client/dist
 .local-data/
